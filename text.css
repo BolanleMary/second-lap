@@ -1,0 +1,21 @@
+.heading{
+    color: red;
+    text-align:right;
+    border: 1px solid red;
+    /* vertical-align:bottom ; No scenero to check this */
+}
+
+.details{
+    text-align: justify;
+    text-align-last:end ;
+    /* text-decoration: overline red wavy 5px; */
+    text-decoration-color: brown;
+    text-decoration-style: dashed ;
+    text-decoration-thickness: 5px;
+
+    /* direction: rtl /ltr; */
+    .link{
+        text-decoration: none;
+        text-transform: capitalize lowercase uppercase none;
+    }
+}

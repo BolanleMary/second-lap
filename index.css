@@ -1,0 +1,77 @@
+.container{
+    border-width: 2px;
+border-style: solid;
+border-color: blue;
+
+border-top-left-radius: 8px;
+border-bottom-right-radius:8px;
+
+
+/* .container { */
+
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: rgb(9, 255, 0);
+    border-radius: 3px; */
+
+    /* border-bottom-style: solid;
+    border-top-color: blue; */
+
+   
+
+    /* border: 1px solid blue;
+    transition: .6s all; */
+
+
+
+    
+/* } */
+
+/* .container:hover {
+        border-color: red;
+         border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+} */
+
+/* border shorthand property is made up of border-width, border-style and border-color */
+ 
+}
+.container{
+    border: 1px solid gold;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.box1{
+    background-color: blue;
+    margin: 10px;
+     /*margin: auto create equal space horizontally  */
+    /* if top and bottom same and left and right same
+    
+    margin: 10px 20px 2 value*/ 
+    /* margin: 10px 10px 30px for 3 value it is top, left and right
+    and bottom */
+}
+
+.box2{
+    background-color: purple;
+    /* to write short hand for all side 
+    to start from the top an move clockwise */
+/* Padding is space around an element but inside */
+
+padding: 10px;
+/* It follows same rule and short cut as margin */
+margin: 0px 0px ;
+}
+
+/* margins 
+They are use to create space around an element. THis space is 
+outside thr borders*/
+
+/* Box Model: is a box that wraps around every element
+every box consists of four part
+1. content, 2.padding, 3.border 4.margin 
+box-sizing: border-box*/
