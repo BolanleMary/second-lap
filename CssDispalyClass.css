@@ -1,0 +1,53 @@
+/* Display
+Every html element has a default value. the default for most 
+html is either block or inline
+Block Element
+1. it start on a new line 
+2. it always take full width  */
+
+/* Flex class */
+.wrapper{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: end;
+height:400px;
+justify-content: end
+}
+
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+display: block;
+    }
+
+    
+    .boxOne{
+        display: inline;
+        
+    }
+
+    .boxTwo{
+       background-color: blue; 
+       
+    }
+
+    .boxThree{
+       background-color: purple; 
+    }
+
+    .boxFour{
+       background-color: pink; 
+    /* visibility: ; */
+
+    }
+
+    .boxFive{
+       background-color: magenta; 
+    }
+
+    .boxSix{
+       background-color: tomato; 
+    }
