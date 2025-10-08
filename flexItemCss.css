@@ -1,0 +1,36 @@
+.wrapper{
+    background-color: color;
+    display: flex;
+    /* gap is applied both horizontally and vertical
+    this is because  it is a short cut to row-gap and colunm-gap
+    gap: 30px 100px  */
+    gap: 30px;
+    /* flex-wrap */
+}
+
+.box{
+   width: 60px;
+   height: 60px; 
+}
+
+.box1, .box3, .box5{
+    background-color: yellow;
+    height: 20px;
+}
+.box2, .box4, .box6{
+    background-color: aqua;
+    height: 40px;
+    
+}
+
+.box6{
+    height:15px;
+    flex-grow:1;
+}
+.box1{
+    order: 1;
+    flex-grow: 2;
+    /* align-content: ;itis similar with align-items but 
+    work in multiple lines and not just one */
+
+}
