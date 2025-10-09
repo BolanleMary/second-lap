@@ -1,0 +1,94 @@
+.wrapper{
+    display: grid;
+    background-color: blanchedalmond;
+    grid-template-columns: [first]100px [second] 1fr 2fr 4fr ;
+    /* gap: 30px; */
+
+    /* place-items: center. this is a short cut 
+    if both are same value */
+    justify-items: center;
+    align-items: center;
+    /* place-content:center */
+    justify-content: center;
+    align-content: center;
+    /* grid-template-rows: 100px 100px100px; */
+    
+    grid-template-areas: 
+    "box1  box1"
+    "box1 box4"
+    "box2 box5";
+}
+
+.box{
+    /* display: flex; */
+    background-color: greenyellow;
+    padding: 50px;
+    box-sizing: border-box;
+    /* width: 50px;
+    height: 50px; */
+}
+/* 
+.wrapper {
+        box-sizing: border-box;
+        background-color: rgb(237, 229, 229);
+        height: 800px;
+
+
+        
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 'yesSir sarah box4'
+    'yesSir box6 box5'
+    'yesSir frontendA box5'
+    ;
+    gap: 10px;
+
+
+
+    
+}
+
+
+.box {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: gold;
+    grid-area: yesSir;
+    padding: 0;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box2 {
+    background-color: aqua;
+    grid-area: sarah
+}
+
+.box3 {
+    background-color: blueviolet;
+    grid-area: frontendA
+}
+
+.box4 {
+    background-color: pink;
+    grid-area: box4
+}
+
+.box5 {
+    background-color: chartreuse;
+    grid-area: box5
+}
+
+.box6 {
+    background-color: tomato;
+    grid-area: box6
+}
+ 
+*/
